@@ -1,4 +1,4 @@
-const TOTAL = 5; // 你的組數（5~10）
+const TOTAL = 5; // 組數
 
 const img = document.getElementById("randomImage");
 const audio = document.getElementById("audioPlayer");
@@ -33,3 +33,4 @@ audio.addEventListener("ended", () => {
 document.body.addEventListener("click", () => {
   playAudio();
 }, { once: true });
+
