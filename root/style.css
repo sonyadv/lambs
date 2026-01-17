@@ -16,7 +16,7 @@ html, body {
 #randomImage {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* 9:16 滿版關鍵 */
+  object-fit: cover; /* 9:16 */
 }
 
 #startBtn {
@@ -31,3 +31,4 @@ html, body {
   background: rgba(0,0,0,0.65);
   color: white;
 }
+
